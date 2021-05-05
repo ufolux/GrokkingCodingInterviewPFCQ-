@@ -3,10 +3,10 @@
 //
 
 #include <stdio.h>
-#include "H005_NoRepeatSubstring.cpp"
+#include "H006_LongestSubstringWithSameLettersAfterReplacement.cpp"
 
 int main() {
-    NoRepeatSubstring q1;
-    int res = q1.findLength("aabccbb");
+    CharacterReplacement q1;
+    int res = q1.findLength("aabccbb", 2);
     return 0;
 }
