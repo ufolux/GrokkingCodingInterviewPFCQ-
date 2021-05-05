@@ -3,10 +3,10 @@
 //
 
 #include <stdio.h>
-#include "M004_FruitsIntoBaskets.cpp"
+#include "H005_NoRepeatSubstring.cpp"
 
 int main() {
-    MaxFruitCountOf2Types q1;
-    int res = q1.findLength({65,66,67,65,'C'});
+    NoRepeatSubstring q1;
+    int res = q1.findLength("aabccbb");
     return 0;
 }
