@@ -3,10 +3,10 @@
 //
 
 #include <stdio.h>
-#include "H006_LongestSubstringWithSameLettersAfterReplacement.cpp"
+#include "H007_LongestSubarrayWithOnesAfterReplacement.cpp"
 
 int main() {
-    CharacterReplacement q1;
-    int res = q1.findLength("aabccbb", 2);
+    ReplacingOnes q1;
+    int res = q1.findLength({0, 1, 1, 0, 0, 0, 1, 1, 0, 1, 1}, 2);
     return 0;
 }
