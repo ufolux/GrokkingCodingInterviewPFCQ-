@@ -3,10 +3,10 @@
 //
 
 #include <stdio.h>
-#include "H007_LongestSubarrayWithOnesAfterReplacement.cpp"
+#include "H008_PermutationInAString.cpp"
 
 int main() {
-    ReplacingOnes q1;
-    int res = q1.findLength({0, 1, 1, 0, 0, 0, 1, 1, 0, 1, 1}, 2);
+    StringPermutation q1;
+    int res = q1.findPermutation("oidbcaf", "abc");
     return 0;
 }
