@@ -3,10 +3,10 @@
 //
 
 #include <stdio.h>
-#include "H008_PermutationInAString.cpp"
+#include "H009_StringAnagrams.cpp"
 
 int main() {
-    StringPermutation q1;
-    int res = q1.findPermutation("oidbcaf", "abc");
+    StringAnagrams q1;
+    auto res = q1.findStringAnagrams("ppqp", "pq");
     return 0;
 }
