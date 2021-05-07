@@ -3,10 +3,10 @@
 //
 
 #include <stdio.h>
-#include "H009_StringAnagrams.cpp"
+#include "H010_SmallestWindowContainingSubstring.cpp"
 
 int main() {
-    StringAnagrams q1;
-    auto res = q1.findStringAnagrams("ppqp", "pq");
-    return 0;
+    MinimumWindowSubstring q1;
+    auto res = q1.findSubstring("aabdec", "abc");
+     return 0;
 }
